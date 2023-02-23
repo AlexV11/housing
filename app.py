@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import prediction
+import joblib
 from combined_attributes_adder import CombinedAttributesAdder
 
 st.header('Housing predictions')
